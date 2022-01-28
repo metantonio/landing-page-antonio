@@ -74,6 +74,10 @@ This boilerplate it's 100% integrated with Herkou, just by pushing your changes 
 
 # Endpoints
 
+Using Thunder Client at Visual Studio Code for API testing:
+
+URL: http://127.0.0.1:3001/api/
+
 ## /api/register
 
 ```
@@ -90,5 +94,19 @@ if everything is correct, password should be encrypted in database, and you will
 {
     "mensaje": "Usuario creado exitosamente"
 }
+
+```
+
+## /api/users
+
+```
+This is a GET method, and this endpoint send you back a list of users registered:
+
+[
+  {
+    "email": "antonio@4geeks.com",
+    "id": 1
+  }
+]
 
 ```
