@@ -113,6 +113,8 @@ This is a GET method, and this endpoint send you back a list of users registered
 
 ## /login
 
+remember use this library: **pipenv install flask-jwt-extended = "==4.3.0"**
+
 ```
 Going to POSTMAN and make a POST method request to /login with following info at JSON, as example:
 
