@@ -76,7 +76,7 @@ This boilerplate it's 100% integrated with Herkou, just by pushing your changes 
 
 Using Thunder Client at Visual Studio Code for API testing:
 
-URL: http://127.0.0.1:3001/api/
+URL: http://127.0.0.1:3001/
 
 ## /api/register
 
@@ -111,7 +111,7 @@ This is a GET method, and this endpoint send you back a list of users registered
 
 ```
 
-## /login
+## api/login
 
 remember use this library: **pipenv install flask-jwt-extended = "==4.3.0"**
 
