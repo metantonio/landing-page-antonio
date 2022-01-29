@@ -110,3 +110,21 @@ This is a GET method, and this endpoint send you back a list of users registered
 ]
 
 ```
+
+## /login
+
+```
+Going to POSTMAN and make a POST method request to /login with following info at JSON, as example:
+
+{
+    "email":"antonio@4geeks.com",
+    "password":"123456"
+}
+
+If everything is correct you'll get something like this:
+
+{
+    "access_token": "eyJ0eXA...eyJmcmVzaCI....-DJSyg2ygoQ6...-RkPdvIqdnAU..."
+}
+
+```

@@ -38,6 +38,10 @@ CORS(app)
 # add the admin
 setup_admin(app)
 
+#JWT Manager
+app.config["JWT_SECRET_KEY"] = os.environ.get('JWT_SECRET_KEY')  # Check key at .env
+jwt = JWTManager(app)
+
 # Add all endpoints form the API with a "api" prefix
 app.register_blueprint(api, url_prefix='/api')
 
